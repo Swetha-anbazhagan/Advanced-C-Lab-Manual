@@ -1,4 +1,4 @@
-EXP NO:1 C PROGRAM FOR ARRAY OF STRUCTURE TO CHECK ELIGIBILITY FOR THE VACCINE.
+#EXP NO:1 C PROGRAM FOR ARRAY OF STRUCTURE TO CHECK ELIGIBILITY FOR THE VACCINE.#
 
 Aim:
 To write a C program for array of structure to check eligibility for the vaccine person age above 6 years of age.
@@ -16,12 +16,26 @@ Else
  
 Program:
 
-//type your code here
+#include <stdio.h>
+
+struct vaccine
+{int age;
+ char n;
+}e;
+int main()
+{scanf("%d %c",&e.age,&e.n);
+
+ if(e.age<=6)
+  printf("Vaccine Eligibility: No\n");
+ else
+  printf("Vaccine Eligibility: Yes\n");
+printf("Name:%c\nAge:%d\n",e.n,e.age);
+return 0;
+}
 
 
 Output:
-
-//paste your output here
+![image](https://github.com/user-attachments/assets/d4fc4553-d046-43fb-b882-01b8b0edf688)
 
 
 Result:
