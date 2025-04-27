@@ -39,11 +39,12 @@ Thus, the program is verified successfully.
 
 
 
-EXP NO:2 C PROGRAM FOR PASSING STRUCTURES AS FUNCTION ARGUMENTS AND RETURNING A STRUCTURE FROM A FUNCTION
-Aim:
+**EXP NO:2 C PROGRAM FOR PASSING STRUCTURES AS FUNCTION ARGUMENTS AND RETURNING A STRUCTURE FROM A FUNCTION**
+
+**Aim**:
 To write a C program for passing structure as function and returning a structure from a function
 
-Algorithm:
+**Algorithm**:
 1.	Define structure numbers with members a and b.
 2.	Declare variable n of type numbers.
 3.	Prompt the user to enter values for a and b.
@@ -52,22 +53,28 @@ Algorithm:
 6.	Print the result returned by the add function.
 7.	Return 0
  
-Program:
+**Program**:
+```
+#include <stdio.h>
 
-//type your code here
+struct vaccine
+{int a;
+ int b;
+}n;
+int sum(int a,int b)
+{
+ return a+b;
+}
+int main()
+{scanf("%d %d",&n.a,&n.b);
+ printf("Sum: %d",sum(n.a,n.b));
 
+}
+```
+**Output**:
+![image](https://github.com/user-attachments/assets/7b904987-8fda-4ba3-8f3c-500c6397cc3f)
 
-
-
-Output:
-
-
-//paste your output here
-
-
-
-
-Result:
+**Result**:
 Thus, the program is verified successfully
 
 
