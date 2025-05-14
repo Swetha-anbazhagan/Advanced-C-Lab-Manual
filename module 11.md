@@ -216,7 +216,7 @@ Use a for loop to iterate n times:
 Use scanf to input each integer and add it to the sum.
 Print the final sum using printf.
 Program:
-
+```
 #include<stdio.h>
 int main()
 {
@@ -233,6 +233,7 @@ int main()
     }
     printf("%d",sum);
 }
+```
 
 Output:
 
@@ -290,8 +291,9 @@ int main()
 }
 ```
 Output:
+![437948824-e437c9a7-c452-47b5-8012-bcdbba3cf345](https://github.com/user-attachments/assets/b5a2cd74-2b21-4c69-81ec-2b24f7e976a1)
 
-![Uploading 437948824-e437c9a7-c452-47b5-8012-bcdbba3cf345.png…]()
+
 
 
 Result:
