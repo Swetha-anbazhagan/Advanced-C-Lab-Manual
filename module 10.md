@@ -261,6 +261,7 @@ o	If the element is not found in any node, print a message indicating the elemen
 
 
 Program:
+
 ```
 struct Node
 {
@@ -280,6 +281,7 @@ void delete()
    }
 }
 ```
+
 Output:
 
 ![437947353-bc4417a1-7943-403f-aa48-6b353a7b6b2b](https://github.com/user-attachments/assets/196c2171-eecf-49d3-8337-d9ac3f1445a5)
